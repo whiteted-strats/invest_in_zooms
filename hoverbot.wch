@@ -1,0 +1,50 @@
+SystemID N64
+502CAC	d	h	1	RDRAM	[UNKNOWN] 0x0
+502CB0	w	h	1	RDRAM	image
+502CB2	w	h	1	RDRAM	preset
+502CB4	d	h	1	RDRAM	flags_1
+502CB8	d	h	1	RDRAM	flags_2
+502CBC	d	h	1	RDRAM	flags_3
+502CC0	d	h	1	RDRAM	position_data_pointer
+502CC4	d	h	1	RDRAM	[UNKNOWN] 0x18
+502CC8	d	f	1	RDRAM	transform.1.x
+502CCC	d	f	1	RDRAM	transform.1.y
+502CD0	d	f	1	RDRAM	transform.1.z
+502CD4	d	f	1	RDRAM	transform.1.w
+502CD8	d	f	1	RDRAM	transform.2.x
+502CDC	d	f	1	RDRAM	transform.2.y
+502CE0	d	f	1	RDRAM	transform.2.z
+502CE4	d	f	1	RDRAM	transform.2.w
+502CE8	d	f	1	RDRAM	transform.3.x
+502CEC	d	f	1	RDRAM	transform.3.y
+502CF0	d	f	1	RDRAM	transform.3.z
+502CF4	d	f	1	RDRAM	transform.3.w
+502CF8	d	f	1	RDRAM	transform.4.x
+502CFC	d	f	1	RDRAM	transform.4.y
+502D00	d	f	1	RDRAM	transform.4.z
+502D04	d	f	1	RDRAM	transform.4.w
+502CF0	d	h	1	RDRAM	collision_data_pointer
+502CF4	d	h	1	RDRAM	motion_data_pointer (probably)
+502CF8	w	u	1	RDRAM	damage_received
+502CFA	w	u	1	RDRAM	health
+502CFC	d	h	1	RDRAM	color
+502D00	d	h	1	RDRAM	[UNKNOWN] 0x54
+502D04	d	h	1	RDRAM	[UNKNOWN] 0x58
+502D08	d	h	1	RDRAM	action_block_pointer
+502D0C	w	u	1	RDRAM	action_block_offset
+502D0E	w	h	1	RDRAM	[UNKNOWN] 0x62
+502D10	d	f	1	RDRAM	speed
+502D14	d	f	1	RDRAM	target_speed
+502D18	d	f	1	RDRAM	time_to_max_speed
+502D1C	d	f	1	RDRAM	azimuth_derivative
+502D20	d	f	1	RDRAM	inclination_derivative
+502D24	d	f	1	RDRAM	roll_derivative
+502D28	d	f	1	RDRAM	azimuth_angle
+502D2C	d	f	1	RDRAM	inclination_angle
+502D30	d	f	1	RDRAM	roll_angle
+502D34	d	h	1	RDRAM	path_pointer
+502D38	w	h	1	RDRAM	[UNKNOWN] 0x8C
+502D3A	w	u	1	RDRAM	path_pad_index
+502D3C	d	h	1	RDRAM	[UNKNOWN] 0x90
+502D40	d	h	1	RDRAM	[UNKNOWN] 0x94
+
